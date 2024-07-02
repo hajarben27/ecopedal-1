@@ -11,6 +11,21 @@ export default () => {
         navigate('/');
     }
 
+<TextField
+  hiddenLabel
+  id="filled-hidden-label-small"
+  defaultValue="Small"
+  variant="filled"
+  size="small"
+/>
+<TextField
+  hiddenLabel
+  id="filled-hidden-label-normal"
+  defaultValue="Normal"
+  variant="filled"
+/>
+
+    
     return (
       <AppBar>
         <Button variant="contained" onClick={signOut}>Logout</Button>
